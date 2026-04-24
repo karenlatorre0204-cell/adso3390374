@@ -14,6 +14,10 @@
 |03.| CSS       | Look & Feel - Cascading Style Sheet  |
 |04.| JavaScript| Behavior - Programing Language       |
 
+![profile](/src/profile.jpg)
+**Karen Suarez**
+
+
 [ADSO File DRIVE](https://tinyurl.com/wnkk334u)
 
 [ VERCEL URL](https://vercel.app)
