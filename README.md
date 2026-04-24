@@ -14,7 +14,7 @@
 |03.| CSS       | Look & Feel - Cascading Style Sheet  |
 |04.| JavaScript| Behavior - Programing Language       |
 
-![profile](/src/profile.jpg)
+![profile](/src/imgs/profile.jpg)
 **Karen Suarez**
 
 
