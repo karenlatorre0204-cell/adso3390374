@@ -7,7 +7,7 @@
     <style>
         body.reto {
             margin: 0;
-            background-color: #17A053;
+            background-color: #149548;
             font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -35,16 +35,21 @@
             gap: 1rem;
         }
 
-        header nav p {
+        header nav a {
             display: block;
-            background-color: #107537;
+            background-color: #11542b;
             color: #fff;
             text-decoration: none;
             text-transform: uppercase;
             font-weight: bold;
-            font-size: 1rem;
+            font-size: 0.9rem;
             padding: 1rem 2rem;
             border-bottom: 4px solid #fff;
+        }
+
+        header nav a:hover {
+            background-color: #091c10;
+            border-bottom-color: gold;
         }
 
         .portafolio {
@@ -53,7 +58,7 @@
             max-width: 1100px;
             margin: 2rem auto;
             padding: 1.3rem;
-            background-color: #09692e;
+            background-color: #11542b;
         }
 
         .portafolio .tarjeta {
@@ -79,24 +84,24 @@
             padding: 1.6rem 0;
             text-align: center;
             color: #000;
-            background-color: rgba(255, 255, 255, 0.212);
+            background-color: rgba(255, 255, 255, 0.5);
         }
 
         .portafolio .tarjeta:hover h3 {
-            background-color: rgba(255, 255, 255, 0.856);
+            background-color: rgba(255, 255, 255, 0.8);
         }
 
-        .sprites {
+        .contenido {
             display: flex;
             flex-direction: column;
             gap: 0.6rem;
             max-width: 1100px;
             margin: 2rem auto;
             padding: 0.6rem;
-            background-color: #09692e;
+            background-color: #11542b;
         }
 
-        .sprites .fila {
+        .contenido .fila {
             display: flex;
             align-items: center;
             gap: 2rem;
@@ -104,14 +109,14 @@
             background-color: #fff;
         }
 
-        .sprites .fila .icono {
+        .contenido .fila .icono {
             width: 86px;
             height: 95px;
             flex-shrink: 0;
             background-position: -299px -493px;
         }
 
-        .sprites .fila p {
+        .contenido .fila p {
             flex: 1;
             margin: 0;
             color: #333;
@@ -119,11 +124,11 @@
             text-align: justify;
         }
 
-        .sprites .fila:hover p {
+        .contenido .fila:hover p {
             color: #1e7d3c;
         }
 
-        .sprites .fila .lata {
+        .contenido .fila .lata {
             width: 90px;
             height: 157px;
             flex-shrink: 0;
@@ -138,7 +143,7 @@
             background-color: #fff;
         }
 
-        footer .img {
+        footer .familia {
             width: 335px;
             height: 182px;
             margin: 0 auto 1.5rem;
@@ -151,26 +156,29 @@
             padding-top: 1rem;
         }
 
-        footer nav p {
+        footer nav a {
             color: #333;
             text-decoration: none;
             text-transform: uppercase;
             font-weight: bold;
-            padding-bottom: 1rem;
+            padding-bottom: 0.5rem;
             border-bottom: 3px solid transparent;
         }
 
+        footer nav a:hover {
+            border-bottom-color: #149548;
+        }
     </style>
 </head>
 <body class="reto">
     <header>
         <div class="logo sprite"></div>
         <nav>
-            <p>Inicio</p>
-            <p>Nosotros</p>
-            <p>Portafolio</p>
-            <p>Servicios</p>
-            <p>Contacto</p>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
         </nav>
     </header>
 
@@ -189,42 +197,42 @@
         </div>
     </section>
 
-    <section class="sprites">
+    <section class="contenido">
         <div class="fila">
             <div class="icono sprite"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, laboriosam cumque sit vero praesentium id tempore, quibusdam asperiores eius quaerat expedita repudiandae sequi deleniti labore quis animi. Reprehenderit, ut! Sit!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam minima blanditiis porro corporis incidunt dolorum quas, exercitationem quam voluptatibus maxime perspiciatis, hic iure quos cumque necessitatibus sit architecto facere aperiam fugit voluptates. Cumque, delectus error quod odio suscipit culpa quis? Ullam autem maxime nostrum reprehenderit mollitia.</p>
             <div class="lata sprite"></div>
         </div>
         <div class="fila">
             <div class="icono sprite"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, eum earum! Quam, odio? Voluptate qui quam, iusto rerum eaque placeat quaerat molestiae veritatis alias dicta facere doloremque quia, quasi ipsam?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam minima blanditiis porro corporis incidunt dolorum quas, exercitationem quam voluptatibus maxime perspiciatis, hic iure quos cumque necessitatibus sit architecto facere aperiam fugit voluptates. Cumque, delectus error quod odio suscipit culpa quis? Ullam autem maxime nostrum reprehenderit mollitia.</p>
             <div class="lata sprite"></div>
         </div>
         <div class="fila">
             <div class="icono sprite"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate culpa fuga sed velit in dicta. Dolores, ullam debitis illum ipsam minus, doloremque obcaecati adipisci, quia sunt maxime sequi? Aut, eaque?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam minima blanditiis porro corporis incidunt dolorum quas, exercitationem quam voluptatibus maxime perspiciatis, hic iure quos cumque necessitatibus sit architecto facere aperiam fugit voluptates. Cumque, delectus error quod odio suscipit culpa quis? Ullam autem maxime nostrum reprehenderit mollitia.</p>
             <div class="lata sprite"></div>
         </div>
         <div class="fila">
             <div class="icono sprite"></div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus labore pariatur quos eos dicta excepturi perspiciatis eius incidunt debitis architecto id neque eum voluptatum, obcaecati quasi ut. Itaque, sunt? </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam minima blanditiis porro corporis incidunt dolorum quas, exercitationem quam voluptatibus maxime perspiciatis, hic iure quos cumque necessitatibus sit architecto facere aperiam fugit voluptates. Cumque, delectus error quod odio suscipit culpa quis? Ullam autem maxime nostrum reprehenderit mollitia.</p>
             <div class="lata sprite"></div>
         </div>
         <div class="fila">
             <div class="icono sprite"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea temporibus maxime placeat amet vitae voluptatum commodi pariatur animi, quos praesentium consequuntur error labore! Totam voluptatum natus expedita vero laborum voluptates?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam minima blanditiis porro corporis incidunt dolorum quas, exercitationem quam voluptatibus maxime perspiciatis, hic iure quos cumque necessitatibus sit architecto facere aperiam fugit voluptates. Cumque, delectus error quod odio suscipit culpa quis? Ullam autem maxime nostrum reprehenderit mollitia.</p>
             <div class="lata sprite"></div>
         </div>
     </section>
 
     <footer>
-        <div class="img sprite"></div>
+        <div class="sprite"></div>
         <nav>
-            <p>Inicio</p>
-            <p>Nosotros</p>
-            <p>Portafolio</p>
-            <p>Servicios</p>
-            <p>Contacto</p>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
         </nav>
     </footer>
 </body>
