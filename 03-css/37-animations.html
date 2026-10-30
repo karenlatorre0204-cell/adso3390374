@@ -28,6 +28,20 @@
             width: 140px;
             animation: 2s animDK ease infinite;
           }
+
+          div.move{
+            position:absolute;
+            top:240px;
+            left: 0;
+            animation: 4s animMove ease-out infinite;
+
+          img.ryno {
+            width: 140px;
+            object-fit: contain;
+            top:0;
+            animation: 0.2s animRyno linear infinite;
+            }
+          }
         }
       }
 
@@ -57,7 +71,26 @@
         100% {
           transform: translateY(0px) rotateX(0deg);
         }
+        
       }
+
+      @keyframes  animRyno {
+            0%, 100% { top: 0px; }
+            50% { top: -38px; }
+        }
+
+        @keyframes animMove {
+            0%    { top: 240px; left: 0px;   transform: rotateY(0deg); 
+            }
+            40%  { top: 240px; left: 380px; transform: rotateY(0deg); 
+            }
+            50%  { top: 240px; left: 380px; transform: rotateY(180deg); 
+            }
+            80%  { top: 240px; left: 0px;   transform: rotateY(180deg);
+             } 
+        }
+
+
  </style>
 </head>
 <body class="css">
