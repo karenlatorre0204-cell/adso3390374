@@ -10,6 +10,7 @@
         div.jungle {
           background: url(imgs/jungle.png) no-repeat center / contain;
           margin: 0 auto;
+          overflow: hidden;
           height: 390px;
           position: relative;
           width: 320px;
@@ -35,16 +36,19 @@
             left: 0;
             animation: 4s animMove ease-out infinite;
 
-          img.ryno {
-            width: 140px;
-            object-fit: contain;
-            top:0;
-            animation: 0.2s animRyno linear infinite;
-            }
+             img.ryno {
+              width: 140px;
+              position: absolute;
+              object-fit: contain;
+              top:0px;
+              animation: 0.2s animRyno linear infinite;
+              }
+
+         
           }
         }
       }
-
+    
       @keyframes animLogo {
         0%,
         100% {
